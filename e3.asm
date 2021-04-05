@@ -1204,7 +1204,7 @@ KeyVICmdd:call ReadOneChar
 	cmp al,'w'			;word (greetings to ma_ko)
 	mov byte [VInolinebased],1
 	je near KeyCmddw
-	cmp al,'d'			;"delete"
+	cmp al,'k'			;"delete"
 	mov byte [VInolinebased],0
 	je near KeyCtrlY
 	cmp al,"'"			;only line based mode supported
@@ -6276,7 +6276,7 @@ db "ma,'a			set/go marker a",10
 db "x,X,<Del>,dw,D		dele chr,word,EOL",10
 db "S,C,dd,d'a,yy,y'a	subst,change,dele,yank",10
 db "p,P			paste",10
-db "A,a,I,i,<Ins>,O,o	enter ins.mode",10
+db "A,a,I,i,<Ins>,O,o	enter ins mode",10
 db "R,r			enter ovw.mode,ovw.chr",10
 db "J			join lines",10
 %ifdef USE_UNDO
