@@ -7,3 +7,6 @@ install:
 
 clean:
 	rm -f e3.lst e3
+
+view: e3
+	./e3

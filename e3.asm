@@ -6065,7 +6065,7 @@ jumps1 equ ($-jumptab1) / esize
  BeepChar	db 7
  screencolors0	db 27,'[40m',27,'[37m'
  bold0		db 27,'[0m'		;reset to b/w
- screencolors1	db 27,'[44m',27,'[33m'	;yellow on blue
+ screencolors1	db 27,'[40m',27,'[37m'
  reversevideoX:
  bold1:		db 27,'[1m'		;bold
  scolorslen	equ $-screencolors1

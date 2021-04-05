@@ -9,7 +9,7 @@
 %define PI 4
 %define VI 8
 %define NE 16
-%define DEFAULT_MODE WS			;<---- select one of WS, EM, NE, PI, VI
+%define DEFAULT_MODE VI			;<---- select one of WS, EM, NE, PI, VI
 %define MAKE_BACKUP
 %define LESSWRITEOPS
 ;-------
